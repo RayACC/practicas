@@ -1,14 +1,14 @@
 vocal = ["a","e","i","o","u"]
 fin=""
-while != "fin" 
+while fin != "fin" 
   frase = input("introduce tu frase")
-  indice= 0
   vocales = 0
   consonantes = 0
+  x = 0
 
-  for frase:
+  for x in frase:
   
-    if frase[indice] in vocal 
+    if x in vocal 
         vocales += 1
     else
         consonantes += 1
