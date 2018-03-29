@@ -1,10 +1,10 @@
 vocal = ["a","e","i","o","u"]
-fin=""
+salir=""
 while fin != "fin" 
   frase = input("introduce tu frase")
+ 
   vocales = 0
   consonantes = 0
-  x = 0
 
   for x in frase:
   
@@ -15,6 +15,7 @@ while fin != "fin"
 
   print("Numero de vocales:  {} ".format(vocales))  
   print("Numero de consonantes: {}".format(consonantes))
-  fin=input("Si deseas terminar escribe fin:")
- 
+  salir=input("Si deseas terminar escribe fin:")
+  salir= salir.lower()
+  
 print("fin del programa ")
