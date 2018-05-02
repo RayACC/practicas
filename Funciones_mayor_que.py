@@ -1,4 +1,4 @@
-def el_mayor(lista_de_numeros):
+def el_mayor (lista_de_numeros):
   numero_prueba=0
   for numero in lista_de_numeros:
     
